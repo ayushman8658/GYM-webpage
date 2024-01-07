@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>get</title>
+</head>
+<style>
+    #form {
+        margin-left: 35rem;
+        margin-top: 10rem;
+        background-color: lightblue;
+        width: 17rem;
+    }
+
+    input {
+        border: 2px solid blue;
+    }
+
+    input[type=text] {
+        width: 50%;
+        margin-left: 2rem;
+        box-sizing: border-box;
+    }
+
+    input[type=email] {
+        width: 50%;
+        margin-left: 2rem;
+        box-sizing: border-box;
+        position: relative;
+        left: 2.5rem;
+    }
+
+    input[type=mobile] {
+        width: 50%;
+        margin-left: 2rem;
+        box-sizing: border-box;
+        position: relative;
+        left: 2rem;
+    }
+
+    input[type=password] {
+        width: 50%;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        box-sizing: border-box;
+        position: relative;
+        left: 2rem;
+    }
+
+    label[for=gender] {
+        margin-left: 4rem;
+    }
+
+    #radio {
+        position: relative;
+        top: 1rem;
+    }
+
+    #city {
+        margin-top: 2rem;
+    }
+
+    select {
+        width: 50%;
+        margin-left: 5rem;
+    }
+
+    button {
+        width: 30%;
+        padding: 0.5rem;
+        margin-top: 2rem;
+        margin-left: 6rem;
+        background-color: orange;
+    }
+
+    #img img {
+        height: 5rem;
+        width: 5rem;
+        margin-left: 6rem;
+        margin-bottom: 2rem;
+    }
+</style>
+</head>
+
+
+
+<body>
+    <div id="form">
+        <div id="img">
+            <img src="logo.avif" alt="">
+        </div>
+        <div id="text">
+            <label for="text">
+                ENTER YOUR NAME
+            </label>
+        </div>
+        <br>
+        <div id="pwd">
+            <label for="pwd">
+                ENTER YOUR EMAIL-ID
+            </label>
+        </div><br>
+        <div id="phone">
+            <label for="phone">
+                ENTER YOUR MOBILE NO.
+            </label>
+        </div><br>
+        <div id="radio">
+            ENTER YOUR GENDER
+
+            <label for="gender">
+                MALE
+                <input type="radio" name="gender">
+                FEMALE
+                <input type="radio" name="gender">
+            </label>
+        </div>
+        <div id="city">
+            ENTER YOUR LOCATION
+            <select>
+                <option value="default">Select</option>
+                <option value="default">CUTTACK</option>
+                <option value="default">BHUBANESWAR</option>
+                <select>
+                    <option value="default">jagamara</option>
+                    <option value="default">KIIT squre</option>
+                    <option value="default">Barmunda </option>
+                </select>
+                <option value="default">PURI</option>
+            </select>
+        </div>
+        <div id="pwd">
+            <label for="pwd">
+                <input type="password" name="pwd">
+            </label>
+        </div>
+        <button>SignUp</button>
+
+
+    </div>
+
+</body>
+
+</html>
